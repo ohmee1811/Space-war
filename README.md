@@ -49,4 +49,4 @@ A 2D space shooting game built with HTML5 Canvas and JavaScript.
 
 ## 👨‍💻 Author
 
-Made by YourName
+Made by Ohmee1811
