@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Space War V1.0</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game-container">
+    <h1>SPACE WAR</h1>
+
+    <div class="game-info">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>HP: <strong id="hp">3</strong></span>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <div id="gameOverScreen" class="hidden">
+      <h2>GAME OVER</h2>
+      <p>Score: <span id="finalScore">0</span></p>
+      <button id="restartButton">다시 시작</button>
+    </div>
+
+    <p class="controls">
+      move: A&D or left&right arrow
+    </p>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
