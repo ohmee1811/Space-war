@@ -33,7 +33,7 @@ A 2D space shooting game built with HTML5 Canvas and JavaScript.
 
 ## 📷 Screenshot
 
-![Game](assets/screenshot_SpaceWar.png)
+![Game](assets/screenShot_SpaceWar.png)
 
 ---
 
